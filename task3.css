@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+h2{
+    text-align: center;
+}
+.img1{
+
+    width: 35%;
+}
+table{
+    width: 80%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+.container{
+    width: 100%;
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+.con{
+    display: grid;
+    grid-template-columns: 100px 50px;
+    grid-column-gap: 50px;
+}
